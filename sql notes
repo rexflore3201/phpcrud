@@ -1,0 +1,14 @@
+CREATE TABLE users (
+usersId int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    usersUid TINYTEXT NOT NULL,
+    usersEmail TINYTEXT NOT NULL,
+    usersPwd LONGTEXT NOT NULL
+)
+
+CREATE TABLE userss (
+userssId int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+userssName TINYTEXT NOT NULL,
+userssCompany TINYTEXT NOT NULL,
+userssEmail TINYTEXT NOT NULL,
+userssPhone int(20) NOT NULL
+)
